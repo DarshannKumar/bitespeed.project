@@ -1,4 +1,4 @@
-// Placeholder for contact.service.js
+
 const db = require('../db');
 
 const processContact = async (email, phoneNumber) => {
