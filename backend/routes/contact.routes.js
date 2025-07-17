@@ -6,7 +6,8 @@ const { identifyContact  } = require('../controllers/contact.controller');
 router.post('/', identifyContact);
 
 
-// router.get('/all', getAllContacts);
+
+
 
 module.exports = router;
 // app.get("/", (req, res) => {
