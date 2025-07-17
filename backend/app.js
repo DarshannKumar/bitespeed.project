@@ -13,6 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.listen(3006);
+// can change port if needed
 
 app.use('/identify', contactRoutes);
 
