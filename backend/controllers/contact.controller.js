@@ -1,8 +1,9 @@
 const { processContact } = require('../services/contact.service');
 
-const identifyContact = async (req, res) => {
+const identifyContact = async (req, res) => { 
   try {
     const { email, phoneNumber } = req.body;
+    // identifying
 
     if (!email && !phoneNumber) {
       return res.status(400).json({ error: 'email or phoneNumber required' });
